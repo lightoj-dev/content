@@ -1,0 +1,25 @@
+title: How to use this theme
+
+-
+
+private: on
+
+-
+
+hidden: on
+
+-
+
+url: https://github.com/marcantondahmen/automad/tree/master/packages/standard/light#readme
+
+-
+
+checkboxShowInFooter: 1
+
+-
+
+checkboxShowInNavbar: 1
+
+-
+
+iconNav: ☼
