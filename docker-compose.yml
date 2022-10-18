@@ -1,0 +1,16 @@
+services:
+  content:
+    image: loj-content
+    build:
+      context: automad
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8000:80"
+    volumes:
+      - ./automad:/app
+    environment:
+      - DEBUG_MODE=true
+      - HEADLESS_MODE=false
+      - DASHBOARD_LINK="/dashboard"
+    entrypoint: ["/init.sh"]
+
